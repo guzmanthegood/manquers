@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   root 'welcome#home'
+  get 'home' => 'welcome#home'
+  get 'tournaments' => 'welcome#tournaments'
+
+
 
   if Rails.env.development?
     mount LetterOpenerWeb::Engine, at: "/devel/emails"
