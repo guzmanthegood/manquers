@@ -6,4 +6,7 @@ class WelcomeController < ApplicationController
   def tournaments
   end
 
+  def palmares
+  end
+  
 end

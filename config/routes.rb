@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root 'welcome#home'
   get 'home' => 'welcome#home'
   get 'tournaments' => 'welcome#tournaments'
+  get 'palmares' => 'welcome#palmares'
 
 
 
